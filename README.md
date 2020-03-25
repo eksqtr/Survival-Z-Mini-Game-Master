@@ -2,6 +2,7 @@
  An Open source Survival Z Mini Game that was developed in C# Language Windows Form from the scratch without any Game Engine Involved.
 ---
 ### Version 1.0
+Gameplay: [Survival Z Mini Game](https://web.facebook.com/groups/649943542157470/permalink/826062847878871/?_rdc=1&_rdr)
 ![Directory](https://github.com/eksqtr/Survival-Z-Mini-Game-Master/blob/master/Screenshots/mainmenu.png)
 **Survival Z Mini Game**
 - [x] **Clean code as much as possible**
