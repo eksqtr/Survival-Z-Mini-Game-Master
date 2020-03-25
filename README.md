@@ -3,7 +3,7 @@
  ### Gameplay: [Survival Z Mini Game](https://web.facebook.com/groups/649943542157470/permalink/826062847878871/?_rdc=1&_rdr)
 ---
 ### Version 1.0
-![Directory](https://github.com/eksqtr/Survival-Z-Mini-Game-Master/blob/master/Screenshots/mainmenu.png)
+![Main Menu](https://github.com/eksqtr/Survival-Z-Mini-Game-Master/blob/master/Screenshots/mainmenu.png)
 **Survival Z Mini Game**
 - [x] **Clean code as much as possible**
 - [x] **Object-Oriented Programming implementation**
