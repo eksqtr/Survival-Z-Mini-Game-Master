@@ -83,6 +83,7 @@ namespace Shooting_Games.Classes
         {
             return this.ZombieText;
         }
+
         private void UpdateZombieFacingAngle(PictureBox zombie, int direction)
         {
             switch (direction)
@@ -163,33 +164,37 @@ namespace Shooting_Games.Classes
 
             if (!zomBounds.IntersectsWith(charBounds))
             {
-                this.IsZombieAttackingCharacter = false;
-                if (zomPosition[0] > charPosition[0])
+                if (Utility.Distance(zomPosition[0], zomPosition[1], charPosition[0], charPosition[1]) <= 300)
                 {
-                    zomPosition[0] -= velocity; // move left
-                    this.ZombieAttackDirection = Global.FACING_DIRECTION_LEFT;
-                    
-                }
-                else if (zomPosition[0] < charPosition[0])
-                {
-                    zomPosition[0] += velocity; // move right
-                    this.ZombieAttackDirection = Global.FACING_DIRECTION_RIGHT;
-                }
+                    Console.WriteLine(Utility.Distance(zomPosition[0], zomPosition[1], charPosition[0], charPosition[1]));
+                    this.IsZombieAttackingCharacter = false;
+                    if (zomPosition[0] > charPosition[0])
+                    {
+                        zomPosition[0] -= velocity; // move left
+                        this.ZombieAttackDirection = Global.FACING_DIRECTION_LEFT;
 
-                if (zomPosition[1] > charPosition[1])
-                {
-                    zomPosition[1] -= velocity; // move up
-                    if (this.ZombieFacingDirection != Global.FACING_DIRECTION_UP) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_UP);
-                    this.ZombieAttackDirection = Global.FACING_DIRECTION_UP;
-                }
-                else if (zomPosition[1] < charPosition[1])
-                {
-                    zomPosition[1] += velocity; // move down
-                    if (this.ZombieFacingDirection != Global.FACING_DIRECTION_DOWN) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_DOWN);
-                    this.ZombieAttackDirection = Global.FACING_DIRECTION_DOWN;
-                }
-                if (this.ZombieAttackDirection == Global.FACING_DIRECTION_LEFT) if (this.ZombieFacingDirection != Global.FACING_DIRECTION_LEFT) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_LEFT);
-                if (this.ZombieAttackDirection == Global.FACING_DIRECTION_RIGHT) if (this.ZombieFacingDirection != Global.FACING_DIRECTION_RIGHT) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_RIGHT);
+                    }
+                    else if (zomPosition[0] < charPosition[0])
+                    {
+                        zomPosition[0] += velocity; // move right
+                        this.ZombieAttackDirection = Global.FACING_DIRECTION_RIGHT;
+                    }
+
+                    if (zomPosition[1] > charPosition[1])
+                    {
+                        zomPosition[1] -= velocity; // move up
+                        if (this.ZombieFacingDirection != Global.FACING_DIRECTION_UP) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_UP);
+                        this.ZombieAttackDirection = Global.FACING_DIRECTION_UP;
+                    }
+                    else if (zomPosition[1] < charPosition[1])
+                    {
+                        zomPosition[1] += velocity; // move down
+                        if (this.ZombieFacingDirection != Global.FACING_DIRECTION_DOWN) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_DOWN);
+                        this.ZombieAttackDirection = Global.FACING_DIRECTION_DOWN;
+                    }
+                    if (this.ZombieAttackDirection == Global.FACING_DIRECTION_LEFT) if (this.ZombieFacingDirection != Global.FACING_DIRECTION_LEFT) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_LEFT);
+                    if (this.ZombieAttackDirection == Global.FACING_DIRECTION_RIGHT) if (this.ZombieFacingDirection != Global.FACING_DIRECTION_RIGHT) UpdateZombieFacingAngle((PictureBox)zombie, Global.FACING_DIRECTION_RIGHT);
+                    }
 
             }
             

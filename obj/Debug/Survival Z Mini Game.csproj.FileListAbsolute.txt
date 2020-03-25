@@ -41,3 +41,24 @@ D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game Master\obj\Debug\Surv
 D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game Master\obj\Debug\Survival Z Mini Game.csproj.CopyComplete
 D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game Master\obj\Debug\Survival Z Mini Game.exe
 D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game Master\obj\Debug\Survival Z Mini Game.pdb
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.csprojAssemblyReference.cache
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Shooting_Games.frmGame.resources
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Shooting_Games.frmMenu.resources
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Shooting_Games.Properties.Resources.resources
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.csproj.GenerateResource.cache
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.exe
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.pdb
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\Survival Z Mini Game.exe.config
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\Survival Z Mini Game.exe.manifest
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\Survival Z Mini Game.application
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\Survival Z Mini Game.exe
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\Survival Z Mini Game.pdb
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\CircularProgressBar.dll
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\NAudio.dll
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\System.Drawing.Common.dll
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\WinFormAnimation.dll
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\bin\Debug\NAudio.xml
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.TrustInfo.xml
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.exe.manifest
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.application
+C:\Users\Jabo\Source\Repos\Survival-Z-Mini-Game-Master\obj\Debug\Survival Z Mini Game.csproj.CopyComplete

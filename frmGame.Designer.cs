@@ -587,7 +587,7 @@
             // 
             this.bttnPlayAgain.BackColor = System.Drawing.Color.Gainsboro;
             this.bttnPlayAgain.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.bttnPlayAgain.Font = new System.Drawing.Font("28 Days Later", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnPlayAgain.Font = new System.Drawing.Font("Microsoft Sans Serif", 26.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnPlayAgain.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
             this.bttnPlayAgain.Location = new System.Drawing.Point(135, 235);
             this.bttnPlayAgain.Name = "bttnPlayAgain";
@@ -600,7 +600,7 @@
             // 
             // bttnBackToMenu
             // 
-            this.bttnBackToMenu.Font = new System.Drawing.Font("28 Days Later", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.bttnBackToMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.bttnBackToMenu.Location = new System.Drawing.Point(135, 323);
             this.bttnBackToMenu.Name = "bttnBackToMenu";
             this.bttnBackToMenu.Size = new System.Drawing.Size(213, 63);

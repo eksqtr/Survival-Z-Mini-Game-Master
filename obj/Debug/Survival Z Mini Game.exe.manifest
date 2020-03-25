@@ -67,14 +67,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Survival Z Mini Game.exe" size="15820272">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Survival Z Mini Game.exe" size="15819776">
       <assemblyIdentity name="Survival Z Mini Game" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>KOeJHLPJ+RLHuiqoQYDmLSACH3dmxSo37FO3VaXWbnY=</dsig:DigestValue>
+        <dsig:DigestValue>n9seUPyLw4ZcthaDfIDIJhQnMOb38KtScehccjaZBgA=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>
