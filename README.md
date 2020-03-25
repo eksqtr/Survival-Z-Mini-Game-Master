@@ -1,5 +1,5 @@
 # Survival-Z-Mini-Game-Master
- An Open source Survival Z Mini Game that was developed in C# Language Windows Form from the scratch without any Game Engine Involved.
+ An Open source Survival Z Mini Game that was developed in C# Language Windows Form from the scratch in just 5 days! without any Game Engine Involved.
  ### Gameplay: [Survival Z Mini Game](https://web.facebook.com/groups/649943542157470/permalink/826062847878871/?_rdc=1&_rdr)
 ---
 ### Version 1.0
