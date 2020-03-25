@@ -49,7 +49,7 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <PropertyGroup>
-    <SignManifests>true</SignManifests>
+    <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
     <ApplicationIcon>SurvivalZLogo.ico</ApplicationIcon>
@@ -99,6 +99,7 @@
     <Compile Include="Classes\Keyboard.cs" />
     <Compile Include="Classes\Bullet.cs" />
     <Compile Include="Classes\SoundFX.cs" />
+    <Compile Include="Classes\Utility.cs" />
     <Compile Include="Classes\Zombie.cs" />
     <Compile Include="frmGame.cs">
       <SubType>Form</SubType>
