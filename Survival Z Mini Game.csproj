@@ -1,0 +1,297 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C18F31E4-92F3-4287-99C2-368BC1F3B1E9}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Shooting_Games</RootNamespace>
+    <AssemblyName>Survival Z Mini Game</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>D:\06_My Documents\Visual Studio 2019\Publish Applications\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>3</ApplicationRevision>
+    <ApplicationVersion>0.7.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>SurvivalZLogo.ico</ApplicationIcon>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>9F1ADE9BAF8B25126DE3929F4F38F4F8376CDB18</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Shooting Games_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <TargetZone>LocalIntranet</TargetZone>
+  </PropertyGroup>
+  <PropertyGroup />
+  <ItemGroup>
+    <Reference Include="CircularProgressBar, Version=2.7.0.7, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\CircularProgressBar.2.7.0.7\lib\net40\CircularProgressBar.dll</HintPath>
+    </Reference>
+    <Reference Include="NAudio, Version=1.10.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\NAudio.1.10.0\lib\net35\NAudio.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing.Common, Version=4.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>packages\System.Drawing.Common.4.5.0\lib\net461\System.Drawing.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="WinFormAnimation, Version=1.6.0.4, Culture=neutral, PublicKeyToken=310fd07b25df79b3, processorArchitecture=MSIL">
+      <HintPath>packages\WinFormAnimation.1.6.0.4\lib\net40\WinFormAnimation.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Character.cs" />
+    <Compile Include="Classes\Coins.cs" />
+    <Compile Include="Classes\Global.cs" />
+    <Compile Include="Classes\Keyboard.cs" />
+    <Compile Include="Classes\Bullet.cs" />
+    <Compile Include="Classes\SoundFX.cs" />
+    <Compile Include="Classes\Zombie.cs" />
+    <Compile Include="frmGame.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmGame.Designer.cs">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="frmGame.resx">
+      <DependentUpon>frmGame.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\app.manifest" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="sprites\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_downleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_downright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_upleft.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\character_move_upright.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_move_down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_move_left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_move_right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_move_up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Image1.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\empty_clip.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\handgun_shot.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\reload.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_attack2.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_growlA.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_growlB.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_hord_growl.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_died.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\zombie_hit.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zmbie_attack_up.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_attack_down.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_attack_left.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\sprites\zombie_attack_right.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\gameover_audio.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.7.2">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.7.2 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\images\arrow100px.png" />
+    <None Include="bin\Debug\images\assault_50px.png" />
+    <None Include="bin\Debug\images\bullet_50px.png" />
+    <None Include="bin\Debug\images\cheap_2_30px.png" />
+    <None Include="bin\Debug\images\check_100px.png" />
+    <None Include="bin\Debug\images\coins_50px.png" />
+    <None Include="bin\Debug\images\doctors_bag_50px.png" />
+    <None Include="bin\Debug\images\eks_100px.png" />
+    <None Include="bin\Debug\images\error_50px.png" />
+    <None Include="bin\Debug\images\fire_bullet_15px.png" />
+    <None Include="bin\Debug\images\fire_bullet_50px.png" />
+    <None Include="bin\Debug\images\handgun_50px.png" />
+    <None Include="bin\Debug\images\health_50px.png" />
+    <None Include="bin\Debug\images\icons8_zombie_50px_1.png" />
+    <None Include="bin\Debug\images\stamina_50px.png" />
+    <None Include="bin\Debug\images\SurvivalZLogo.png" />
+    <None Include="bin\Debug\images\uparrow.png" />
+    <None Include="bin\Debug\images\zombie_iocn_50px.png" />
+    <None Include="bin\Debug\images\zombie_thumbsup_50px.png" />
+    <None Include="bin\Debug\images\gameGUI\coin_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\coinGUI.png" />
+    <None Include="bin\Debug\images\gameGUI\gameover_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\medkit_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\score_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\txt_0.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_0.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_1.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_2.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_3.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_4.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_5.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_6.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_7.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_8.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtgui_9.PNG" />
+    <None Include="bin\Debug\images\gameGUI\txtwave_gui.PNG" />
+    <None Include="bin\Debug\images\gameGUI\wave_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\wavecleared_gui.PNG" />
+    <None Include="bin\Debug\images\gameGUI\zombieleft_gui.png" />
+    <None Include="bin\Debug\images\gameGUI\mainmenu_gui.png" />
+    <None Include="bin\Debug\images\mainmenu_image_one.png" />
+    <None Include="bin\Debug\images\mainmenu_image_three.png" />
+    <None Include="bin\Debug\images\mainmenu_image_two.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="bin\Debug\audio\welcome_to_survival_z_scary.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="game_icon.ico" />
+    <Content Include="SurvivalZLogo.ico" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

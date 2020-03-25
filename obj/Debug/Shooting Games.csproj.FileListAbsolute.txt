@@ -1,0 +1,20 @@
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\Shooting Games.exe.config
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\Shooting Games.exe
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\Shooting Games.pdb
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\CircularProgressBar.dll
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\System.Drawing.Common.dll
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\WinFormAnimation.dll
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting_Games.Properties.Resources.resources
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.csproj.GenerateResource.cache
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.csproj.CopyComplete
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.exe
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.pdb
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\NAudio.dll
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\NAudio.xml
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting_Games.frmGame.resources
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.csprojAssemblyReference.cache
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\Shooting Games.exe.manifest
+D:\06_My Documents\Visual Studio 2019\Shooting Games\bin\Debug\Shooting Games.application
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.TrustInfo.xml
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.exe.manifest
+D:\06_My Documents\Visual Studio 2019\Shooting Games\obj\Debug\Shooting Games.application

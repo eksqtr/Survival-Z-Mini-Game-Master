@@ -1,0 +1,22 @@
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\CircularProgressBar.dll
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\NAudio.dll
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\System.Drawing.Common.dll
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\WinFormAnimation.dll
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\NAudio.xml
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Shooting_Games.frmGame.resources
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Shooting_Games.Properties.Resources.resources
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.csproj.GenerateResource.cache
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.csproj.CopyComplete
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\Survival Z Mini Game.exe.config
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\Survival Z Mini Game.exe.manifest
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\Survival Z Mini Game.application
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\Survival Z Mini Game.exe
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\bin\Debug\Survival Z Mini Game.pdb
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.TrustInfo.xml
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.exe.manifest
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.application
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.exe
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.pdb
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Shooting_Games.frmMenu.resources
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Shooting_Games.frmTutorial.resources
+D:\06_My Documents\Visual Studio 2019\Survival Z Mini Game\obj\Debug\Survival Z Mini Game.csprojAssemblyReference.cache
