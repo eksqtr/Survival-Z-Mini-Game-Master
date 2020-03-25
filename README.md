@@ -36,6 +36,7 @@
 - **Dynamic Zombie Character**
      - > Ability to Random Spawn Location.
      - > Ability to chase the character in random speed.
+     - > Zombie will only start chasing character upon a certain distance Added by: [Code Jabo](https://github.com/jabo-bernardo)
      - > Ability to drop coins that can be picked up by character.
      - > Progress Bar Health Indicator to know the health of the zombies.
      - > Animation when chasing the character.
